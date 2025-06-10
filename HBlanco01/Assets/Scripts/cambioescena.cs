@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class CambioEscena : MonoBehaviour
 {
-    public void CambiarEscenaPorNombre(string nombreEscena)
+    public void CambiarEscena(string Escena)
     {
-        SceneManager.LoadScene(nombreEscena);
+        SceneManager.LoadScene(Escena);
     }
 
     public void CerrarAplicación()
